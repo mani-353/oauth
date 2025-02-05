@@ -10,15 +10,6 @@ import {
 import axios from "axios"; // For making API requests
 
 // Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyD5QcngXmTZhOZFz20gxS6RkaB2h9Ly8sU",
-  authDomain: "login-da1a9.firebaseapp.com",
-  projectId: "login-da1a9",
-  storageBucket: "login-da1a9.firebasestorage.app",
-  messagingSenderId: "320791020601",
-  appId: "1:320791020601:web:7a1a7da7c1486d1c0479e8",
-  measurementId: "G-961PYCRB6P"
-};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
